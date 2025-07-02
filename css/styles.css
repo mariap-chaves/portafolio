@@ -124,7 +124,7 @@
 .button:hover {
     background-color: white;
     color: #431157;
-    animation: buttonAnimation 0.4s ease-in;
+    animation: buttonAnimation 0.4s ease-in-out;
     padding: 22px 32px;
 }
 
@@ -156,7 +156,7 @@
 }
 
 /* Habilidades*/
-.container2 {
+.container_habilidad {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,6 +165,8 @@
     font-family: 'Poppins', sans-serif;
     padding-bottom: 100px;
 }
+
+
 
 .image2 {
     width: 300px;
@@ -215,6 +217,77 @@
 
 .habilidad_h1{
     border-top: #e4dab6 10px solid;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #9939bf;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 50px ;
+}
+
+/* Contacto*/
+.container_contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 23px;
+}
+
+.form_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+
+.form_email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+input[type=text] {
+    border: #135c79 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 5px solid #3b8ea5;
+}
+
+.text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+
+}
+
+/* Portafolio */
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;  
+}
+.proyecto_h1{
     font-size: 70px;
     font-weight: bold;
     color: white;
